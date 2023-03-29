@@ -4,13 +4,13 @@
   "description": "",
   "author": "",
   "license": "ISC",
-  "main": "./dist/vite-ts-lib.umd.cjs",
+  "main": "./dist/vite-ts-lib.umd.js",
   "module": "./dist/vite-ts-lib.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/vite-ts-lib.js",
-      "require": "./dist/vite-ts-lib.umd.cjs"
+      "require": "./dist/vite-ts-lib.umd.js"
     }
   },
   "scripts": {
