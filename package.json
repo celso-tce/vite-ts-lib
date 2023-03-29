@@ -18,6 +18,9 @@
     "build": "tsc && vite build",
     "clean": "rimraf dist"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@types/node": "^18.15.11",
     "rimraf": "^4.4.1",
