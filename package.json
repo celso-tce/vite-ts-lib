@@ -1,0 +1,27 @@
+{
+  "name": "vite-ts-lib",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "main": "./dist/vite-ts-lib.umd.cjs",
+  "module": "./dist/vite-ts-lib.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vite-ts-lib.js",
+      "require": "./dist/vite-ts-lib.umd.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "rimraf": "^4.4.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1",
+    "vite-plugin-dts": "^2.1.0"
+  }
+}
